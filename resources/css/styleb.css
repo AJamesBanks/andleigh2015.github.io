@@ -1,0 +1,76 @@
+/*
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+
+h1 {
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+    font-size: 95%;
+*/
+      
+    
+body,
+html {
+  width: 100%;
+  height: 100%; 
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+hr {
+  max-width: 250px;
+  border-width: 3px;
+  border-color: #F05F44; 
+}
+
+
+header.startup {
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.53), rgba(0, 0, 0, 0.53)), url(img/LandingStock_image_26.jpg);
+  text-align: center;
+  
+}
+
+header.startup hr {
+  margin-top: 20px;
+  margin-bottom: 30px; 
+}
+
+header.startup h1 {
+  font-size: 110%; 
+  letter-spacing: 4px;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn-xl {
+  padding: 10px 15px; 
+}
+
+.btn-primary {  
+  background-color: #F05F44;
+  border-color: #F05F44;
+  letter-spacing: 1px;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+  
